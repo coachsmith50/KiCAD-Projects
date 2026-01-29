@@ -18,7 +18,7 @@
 				(font (size 1.27 1.27))
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BTT_TMC2209:BTT_TMC2209_V1.3"
 			(at 0 0 0)
 			(effects
 				(font (size 1.27 1.27))
