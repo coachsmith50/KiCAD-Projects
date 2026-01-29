@@ -1,0 +1,126 @@
+(footprint "NEMA17_ScrewTerminal_1x04"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4-pin screw terminal for NEMA17 stepper motor, 5.08mm pitch, with wire color labels")
+	(tags "screw terminal stepper motor NEMA17 connector")
+	(property "Reference" "J"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(uuid "00000000-0000-0000-0000-000000000001")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Value" "NEMA17_Motor"
+		(at 0 7.5 0)
+		(layer "F.Fab")
+		(uuid "00000000-0000-0000-0000-000000000002")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000003")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000004")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Description" "NEMA17 Stepper Motor Screw Terminal Connector"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000005")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(attr through_hole)
+
+	(fp_line (start -12.7 -3.5) (end 12.7 -3.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "10000001-0000-0000-0000-000000000001"))
+	(fp_line (start 12.7 -3.5) (end 12.7 3.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "10000001-0000-0000-0000-000000000002"))
+	(fp_line (start 12.7 3.5) (end -12.7 3.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "10000001-0000-0000-0000-000000000003"))
+	(fp_line (start -12.7 3.5) (end -12.7 -3.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "10000001-0000-0000-0000-000000000004"))
+
+	(fp_line (start -13 -3.8) (end 13 -3.8) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "20000001-0000-0000-0000-000000000001"))
+	(fp_line (start 13 -3.8) (end 13 6) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "20000001-0000-0000-0000-000000000002"))
+	(fp_line (start 13 6) (end -13 6) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "20000001-0000-0000-0000-000000000003"))
+	(fp_line (start -13 6) (end -13 -3.8) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "20000001-0000-0000-0000-000000000004"))
+
+	(fp_text user "A+"
+		(at -7.62 4.5 0)
+		(layer "F.SilkS")
+		(uuid "30000001-0000-0000-0000-000000000001")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(fp_text user "BLK"
+		(at -7.62 5.5 0)
+		(layer "F.SilkS")
+		(uuid "30000001-0000-0000-0000-000000000002")
+		(effects (font (size 0.7 0.7) (thickness 0.1)))
+	)
+
+	(fp_text user "A-"
+		(at -2.54 4.5 0)
+		(layer "F.SilkS")
+		(uuid "30000002-0000-0000-0000-000000000001")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(fp_text user "GRN"
+		(at -2.54 5.5 0)
+		(layer "F.SilkS")
+		(uuid "30000002-0000-0000-0000-000000000002")
+		(effects (font (size 0.7 0.7) (thickness 0.1)))
+	)
+
+	(fp_text user "B-"
+		(at 2.54 4.5 0)
+		(layer "F.SilkS")
+		(uuid "30000003-0000-0000-0000-000000000001")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(fp_text user "RED"
+		(at 2.54 5.5 0)
+		(layer "F.SilkS")
+		(uuid "30000003-0000-0000-0000-000000000002")
+		(effects (font (size 0.7 0.7) (thickness 0.1)))
+	)
+
+	(fp_text user "B+"
+		(at 7.62 4.5 0)
+		(layer "F.SilkS")
+		(uuid "30000004-0000-0000-0000-000000000001")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(fp_text user "BLU"
+		(at 7.62 5.5 0)
+		(layer "F.SilkS")
+		(uuid "30000004-0000-0000-0000-000000000002")
+		(effects (font (size 0.7 0.7) (thickness 0.1)))
+	)
+
+	(fp_text user "STEPPER MOTOR"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(uuid "40000001-0000-0000-0000-000000000001")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+
+	(pad "1" thru_hole rect (at -7.62 0 0) (size 2.0 2.0) (drill 1.2) (layers "*.Cu" "*.Mask") (uuid "a0000001-0000-0000-0000-000000000001"))
+	(pad "2" thru_hole oval (at -2.54 0 0) (size 2.0 2.0) (drill 1.2) (layers "*.Cu" "*.Mask") (uuid "a0000002-0000-0000-0000-000000000001"))
+	(pad "3" thru_hole oval (at 2.54 0 0) (size 2.0 2.0) (drill 1.2) (layers "*.Cu" "*.Mask") (uuid "a0000003-0000-0000-0000-000000000001"))
+	(pad "4" thru_hole oval (at 7.62 0 0) (size 2.0 2.0) (drill 1.2) (layers "*.Cu" "*.Mask") (uuid "a0000004-0000-0000-0000-000000000001"))
+)
