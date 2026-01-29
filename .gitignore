@@ -1,0 +1,39 @@
+# KiCad backup files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+*-cache.lib
+*-cache.dcm
+*.bck
+*.bak
+*~
+
+# KiCad lock files
+*.lck
+
+# KiCad generated files
+*-rescue.lib
+*-rescue.dcm
+fp-info-cache
+
+# Gerber/drill output (optional - uncomment if you don't want to track)
+# *.gbr
+# *.drl
+# *.gbrjob
+
+# BOM and position files (optional)
+# *.csv
+# *.xml
+
+# 3D model cache
+*.3dshapes/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/Editor
+.vscode/
+*.swp
+*.swo
